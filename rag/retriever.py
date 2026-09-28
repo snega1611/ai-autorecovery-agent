@@ -1,8 +1,3 @@
-"""
-Thin retrieval layer over the Chroma collections built by build_index.py.
-Kept separate from the MCP tool definitions so it can be unit-tested and
-reused (e.g. by the evaluation script) without spinning up the MCP server.
-"""
 from __future__ import annotations
 from pathlib import Path
 from typing import List, Dict, Any, Optional

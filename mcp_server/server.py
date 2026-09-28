@@ -1,17 +1,3 @@
-"""
-MCP server exposing the record-recovery tools to any MCP client (in this
-project, the LangGraph agent connects as a client -- see agent/graph.py).
-
-Uses the official `mcp` Python SDK's stdio server, which is the simplest
-transport for a local, single-user portfolio demo (no network exposure
-needed).
-
-Run standalone for manual testing:
-    python mcp_server/server.py
-It will then wait on stdio for an MCP client to connect (the agent process
-launches this as a subprocess automatically -- you don't need to run it by
-hand for the normal demo flow, see agent/graph.py).
-"""
 from __future__ import annotations
 import asyncio
 import json

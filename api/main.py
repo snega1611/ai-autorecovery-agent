@@ -1,21 +1,3 @@
-"""
-Human-in-the-loop approval API.
-
-Provides the backend API for:
-- pending recovery cases
-- customer records
-- transcripts for human review
-- audit trails
-- human approval/rejection
-- operational statistics
-
-Run:
-    uvicorn api.main:app --reload --port 8000
-
-Swagger UI:
-    http://127.0.0.1:8000/docs
-"""
-
 from __future__ import annotations
 
 import json

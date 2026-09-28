@@ -1,9 +1,3 @@
-"""
-Append-only JSONL audit log. Every tool call, agent decision, and human
-action gets written here so any record's full history can be reconstructed.
-Intentionally boring/simple: this is the part that's cheap to build but that
-interviewers specifically ask about ("how do you know what the agent did?").
-"""
 from __future__ import annotations
 import json
 import os

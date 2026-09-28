@@ -1,18 +1,3 @@
-"""
-The actual tool implementations exposed via MCP (see server.py for the MCP
-wiring). Kept separate from server.py so they can be unit/integration
-tested directly without going through the MCP protocol layer.
-
-Tools:
-  get_record(record_id)
-  get_transcript(customer_id)
-  search_transcript(customer_id, query)     -> RAG (semantic) evidence search
-  get_policy(topic)                          -> RAG policy retrieval
-  lookup_customer_by_phone(phone_number)     -> identity resolution
-  validate_field(field_name, candidate_values, request_type)  -> deterministic
-  propose_recovery(record_id, fields, evidence_summary)
-  escalate_to_human(record_id, reason, evidence_summary)
-"""
 from __future__ import annotations
 import json
 import re

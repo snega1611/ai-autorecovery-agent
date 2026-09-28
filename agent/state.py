@@ -1,8 +1,3 @@
-"""
-State schema for the investigation agent's LangGraph. Kept as a plain
-TypedDict (LangGraph's preferred shape) so it's easy to inspect/serialize
-for the audit log and for the evaluation script.
-"""
 from __future__ import annotations
 from typing import TypedDict, List, Dict, Any, Optional
 

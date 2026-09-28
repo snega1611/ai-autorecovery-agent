@@ -1,20 +1,3 @@
-"""
-Builds two Chroma collections:
-
-  1. "policies"    -- one chunk per policy doc section, used by the
-                       get_policy tool to answer "what does policy require?"
-  2. "transcripts"  -- one chunk per transcript turn (customer turns only,
-                       plus a little agent-turn context), used by the
-                       search_transcript tool for semantic evidence search
-                       (catches paraphrases the agent's literal keyword
-                       search over the transcript text would miss).
-
-Both use a small local sentence-transformer (all-MiniLM-L6-v2, ~80MB,
-CPU-friendly) via Chroma's built-in embedding function, so nothing leaves
-the machine and there's no API cost.
-
-Run: python rag/build_index.py
-"""
 from __future__ import annotations
 import json
 import re

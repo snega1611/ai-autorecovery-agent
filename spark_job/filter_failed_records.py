@@ -1,35 +1,3 @@
-"""
-Recall Spark batch job.
-
-Purpose:
-    Scan accumulated customer request records and build the
-    recovery work queue for FAILED and CONFLICTING requests.
-
-Normal operation:
-    python spark_job/filter_failed_records.py
-
-The job:
-    1. Reads all records from data/records.json.
-    2. Selects FAILED and CONFLICTING records.
-    3. Calculates recovery priority.
-    4. Refreshes the derived recovery queue.
-    5. Removes records that are no longer recovery-eligible.
-
-The queue is a derived batch output, not the source of truth.
-
-Source of truth:
-    data/records.json
-
-Derived recovery queue:
-    data/queue/prioritized_failed.json
-
-Optional debugging:
-    --record-id <id>
-
-The --record-id option is intended only for development/testing.
-The normal Recall workflow runs the full batch without it.
-"""
-
 from __future__ import annotations
 
 import argparse

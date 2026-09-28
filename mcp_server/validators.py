@@ -1,13 +1,3 @@
-"""
-Deterministic validation logic. This is intentionally NOT an LLM call.
-
-This is the core safety story of the whole project: the agent (an LLM) may
-propose a recovered value, but whether that value is actually safe to
-auto-apply is decided here, by plain Python rules grounded in the evidence
-the agent collected -- not by the LLM's own confidence.
-
-Kept fully unit-testable and framework-free.
-"""
 from __future__ import annotations
 import re
 from dataclasses import dataclass

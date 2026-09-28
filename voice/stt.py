@@ -1,8 +1,3 @@
-"""
-Speech-to-text using faster-whisper Also provides a simple push-to-talk
-style mic recording helper using sounddevice, since we don't need real-time
-streaming for a turn-based conversation.
-"""
 from __future__ import annotations
 import os
 import tempfile

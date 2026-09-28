@@ -1,10 +1,3 @@
-"""
-Thin async MCP client wrapper. Launches mcp_server/server.py as a stdio
-subprocess and exposes list_tools()/call_tool() to the LangGraph agent, and
-a helper to convert MCP tool schemas into the format Ollama's /api/chat
-`tools` field expects (they're both JSON-schema based, but the wrapping
-differs slightly).
-"""
 from __future__ import annotations
 import json
 import sys
