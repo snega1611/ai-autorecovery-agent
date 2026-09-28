@@ -1,0 +1,136 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+
+# Environment / Secrets
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+
+# =========================
+
+# Logs / Runtime Output
+
+# =========================
+
+*.log
+logs/
+*.out
+
+# =========================
+
+# Local databases
+
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+
+# Runtime / Generated Data
+
+# =========================
+
+data/generate_data.py
+data/logs/
+demo/
+tests/
+
+# Ignore local data files
+
+data/records.json
+data/transcripts.json
+data/customers.json
+
+# =========================
+
+# Local AI Models
+
+# =========================
+
+*.gguf
+*.ggml
+*.bin
+*.onnx
+*.safetensors
+*.pt
+*.pth7
+*.onnx.json
+
+
+# =========================
+
+# IDE
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Temporary files
+
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+MANIFEST
+
+# =========================
+
+# Local Spark / Java output
+
+# =========================
+
+spark-warehouse/
+metastore_db/
+derby.log
+*.lck
+*.trace.db

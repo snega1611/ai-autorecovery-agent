@@ -1,0 +1,18 @@
+[
+  {
+    "record_id": "rec_auto_001",
+    "customer_id": "C10001",
+    "request_type": "date_change",
+    "policy_number": "P10001",
+    "effective_date": null,
+    "phone_number": null,
+    "status": "FAILED",
+    "failure_reason": "MISSING_EFFECTIVE_DATE",
+    "created_at": 1790427157.8571517,
+    "transcript_id": "txn_auto_001",
+    "missing_field_count": 1,
+    "age_days": 0.1851941837315206,
+    "conflict_priority": 0.0,
+    "priority_score": 10.18519418373152
+  }
+]

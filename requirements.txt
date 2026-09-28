@@ -1,0 +1,35 @@
+# Core
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# LLM (local via Ollama's OpenAI-compatible-ish REST API)
+requests==2.32.3
+
+# Agent orchestration
+langgraph==0.2.39
+langchain-core==0.3.15
+
+# MCP
+mcp==1.1.2
+
+# RAG
+chromadb==0.5.20
+sentence-transformers==3.2.1
+
+# Voice
+faster-whisper==1.0.3
+sounddevice==0.5.1
+soundfile==0.12.1
+numpy==1.26.4
+# Piper TTS is used via its CLI binary (piper), not a pip package.
+# See voice/tts.py for install instructions.
+
+# Batch processing
+pyspark==3.5.3
+
+# API
+fastapi==0.115.4
+uvicorn==0.32.0
+
+# Misc
+tqdm==4.66.5
