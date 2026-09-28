@@ -424,6 +424,10 @@ Examples of reasons for escalation include:
 * Approval-required operations
 * Unsuccessful recovery investigation
 
+* ### Demo
+
+https://github.com/user-attachments/assets/9ea454e5-536f-4ce9-abb6-e7d540052f79
+
 ---
 
 # 11. Successful Autorecovery
@@ -434,9 +438,9 @@ The following execution demonstrates a Agent recovery investigation.
 
 ### Evidence
 
-![Failed agent investigation 1](images/agent_investigation_autorecovery_case1.png)
+![Failed agent investigation 1](images/agent_investigation_autorecovery_case_1.png)
 
-![Failed agent investigation 2](images/agent_investigation_autorecovery_case2.png)
+![Failed agent investigation 2](images/agent_investigation_autorecovery_case_2.png)
 
 ---
 
