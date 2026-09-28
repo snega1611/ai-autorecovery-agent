@@ -2,6 +2,8 @@
 
 > **An AI-powered voice request recovery system that detects failed customer records, investigates the failure using an agentic workflow, retrieves relevant policy information, protects PII, and either autorecovers the request or routes it for human review.**
 
+![Architecture](images/recovery-architecture.png)
+
 ---
 
 ## Overview
@@ -164,8 +166,6 @@ The workflow maintains persistent records showing:
 ---
 
 # Architecture
-
-![Architecture](images/recovery_architecture.png)
 
 ```text
                          ┌─────────────────────┐
