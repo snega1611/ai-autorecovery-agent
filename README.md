@@ -165,6 +165,8 @@ The workflow maintains persistent records showing:
 
 # Architecture
 
+![Architecture](images/recovery_architecture.png)
+
 ```text
                          ┌─────────────────────┐
                          │   Customer Voice     │
